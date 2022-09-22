@@ -1,5 +1,4 @@
 import fetch from "node-fetch";
-import { exit } from "process";
 
 const registerURL = "https://webapps-5.okanagan.bc.ca/ok/OCMobile/api/Account/Register"
 
