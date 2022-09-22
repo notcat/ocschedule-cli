@@ -27,7 +27,6 @@ export async function LoginDevice(username: string, deviceID: string): Promise<A
         },
     }).then((response) => {
         if (response.ok) {
-            // TODO: this needs to be changed to something better lol
             cookie.cookie = "" + response.headers.get('set-cookie');
 
             // TODO: need to get date from cookie

@@ -40,7 +40,6 @@ rdevice.RegisterDevice(ocusername, password, deviceName).then((device: rdevice.R
     console.log(device);
 
     logindevice.LoginDevice(ocusername, device.deviceID).then(async (cookie: logindevice.AuthCookie) => {
-        //console.log(cookie);
 
         // TODO: make it so you can select the date you want to see
         let url = `https://webapps-5.okanagan.bc.ca/ok/OCMobile/api/Schedule/GetScheduleByDate?studentID=${ocusername}&startDate=2022-09-21T01%3A06%3A24&endDate=2022-09-22T01%3A06%3A24&page=1&start=0&limit=25`
