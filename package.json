@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.7.18"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2"
+  },
+  "name": "ocschedule-cli",
+  "description": "Provides a CLI for viewing your Okanagan College Schedule",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
