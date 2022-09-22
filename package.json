@@ -5,6 +5,7 @@
     },
     "dependencies": {
         "dotenv": "^16.0.2",
+        "fetch-cookie": "^2.1.0",
         "node-fetch": "^3.2.10",
         "prompt-sync": "^4.2.0"
     },
